@@ -48,7 +48,7 @@
     <dependency>
       <groupId>com.google.auto.service</groupId>
       <artifactId>auto-service</artifactId>
-      <version>1.0.1</version>
+      <version>1.1.1</version>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -167,7 +167,7 @@
           </compilerArgs>
           <showWarnings>true</showWarnings>
           <showDeprecation>true</showDeprecation>
-          <testExcludes combine.children="append" />
+          <testExcludes combine.children="append"/>
         </configuration>
       </plugin>
       <plugin>
@@ -232,7 +232,7 @@
               </compilerArgs>
               <showWarnings>true</showWarnings>
               <showDeprecation>true</showDeprecation>
-              <testExcludes combine.children="append" />
+              <testExcludes combine.children="append"/>
             </configuration>
           </plugin>
         </plugins>
